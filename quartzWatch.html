@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - All watches</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .product-details{
+            background-color: darkgrey;
+            height: 650px;
+}
+        .product-container{
+            background-color: lightgoldenrodyellow;
+            height: 500px;
+        }
+        .product-image{
+            width: 3000px;
+            margin-left: 35px;
+        }
+        h1{
+            font-size: 45px;
+        }
+        .products-price{
+            font-size: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="product-details">
+        <div class="product-container">
+            <div class="product-image">
+                <img src="images/watches_PNG9886.png" alt="Quartz Casio Watch">
+            </div>
+            <div class="product-info">
+                <h1>Quartz Casio</h1>
+                <p class="product-description">The Casio Quartz Watch is a reliable, affordable timepiece known for its accuracy and durability, featuring a classic design and long-lasting battery life.</p>
+                <p class="products-price">$3,899</p>
+                <button id="add-to-cart" class="primary-btn" onclick="addToCart('Quartz Casio', 3899)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

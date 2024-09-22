@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - All watches</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .product-details{
+            background-color: darkgrey;
+            height: 650px;
+}
+        .product-container{
+            background-color: lightgoldenrodyellow;
+            height: 500px;
+        }
+        .product-image{
+            width: 3000px;
+            margin-left: 35px;
+        }
+        h1{
+            font-size: 45px;
+        }
+        .products-price{
+            font-size: 40px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <section class="product-details">
+        <div class="product-container">
+            <div class="product-image">
+                <img src="images/image.png" alt="Tissot Watch">
+            </div>
+            <div class="product-info">
+                <h1>Tissot old Model</h1>
+                <p class="product-description">Tissot is a prestigious French luxury brand, celebrated for its exquisite craftsmanship in jewelry and watches, symbolizing elegance and timeless sophistication. and and elegant design. and renowned for its precision and innovation, offering eco-friendly timepieces with cutting-edge technology. From solar-powered models to elegant designs, Citizen combines style, sustainability, and reliability in every watch.</p>
+                <p class="products-price">$9,899</p>
+                <button id="add-to-cart" class="primary-btn" onclick="addToCart('Tissot watch', 9809)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

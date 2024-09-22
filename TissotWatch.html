@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - All watches</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .product-details{
+            background-color: darkgrey;
+            height: 650px;
+}
+        .product-container{
+            background-color: lightgoldenrodyellow;
+            height: 500px;
+        }
+        .product-image{
+            width: 3000px;
+            margin-left: 35px;
+        }
+        h1{
+            font-size: 45px;
+        }
+        .products-price{
+            font-size: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <!-- ----Product Details---- -->
+    <section class="product-details">
+        <div class="product-container">
+            <div class="product-image">
+                <img src="images/image copy 5.png"  alt="Tissot Watch">
+            </div>
+            <div class="product-info">
+                <h1>Tissot New Model</h1>
+                <p class="product-descriptions">Tissot Watch is a renowned Japanese brand known for its innovative, eco-friendly timepieces, blending precision, durability, and elegant design and Tissot is a Swiss luxury watch brand known for its precision, craftsmanship, and innovation. Combining traditional elegance with modern technology, Tissot offers a wide range of stylish and functional timepieces.</p>
+                <p class="products-price">$9,899</p>
+                <button id="add-to-carts" class="primary-btn" onclick="addToCart('Tissot watch', 9809)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
